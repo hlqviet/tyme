@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "The DJ",
+    "price": 2.75,
+    "tier": "Epic",
+    "imageUrl": "/assets/images/the-dj.png"
+  },
+  {
+    "id": 2,
+    "name": "Assassin",
+    "price": 2.75,
+    "tier": "Common",
+    "imageUrl": "/assets/images/assassin.png"
+  },
+  {
+    "id": 3,
+    "name": "Neon Guy",
+    "price": 2.75,
+    "tier": "Rare",
+    "imageUrl": "/assets/images/neon-guy.png"
+  },
+  {
+    "id": 4,
+    "name": "Assassin",
+    "price": 2.75,
+    "tier": "Common",
+    "imageUrl": "/assets/images/assassin.png"
+  },
+  {
+    "id": 5,
+    "name": "Mafia England",
+    "price": 2.75,
+    "tier": "Legendary",
+    "imageUrl": "/assets/images/mafia-england.png"
+  },
+  {
+    "id": 6,
+    "name": "Basketball Girl",
+    "price": 2.75,
+    "tier": "Mythic",
+    "imageUrl": "/assets/images/basketball-girl.png"
+  },
+  {
+    "id": 7,
+    "name": "The DJ",
+    "price": 2.75,
+    "tier": "Epic",
+    "imageUrl": "/assets/images/the-dj.png"
+  },
+  {
+    "id": 8,
+    "name": "Basketball Girl",
+    "price": 2.75,
+    "tier": "Mythic",
+    "imageUrl": "/assets/images/basketball-girl.png"
+  },
+  {
+    "id": 9,
+    "name": "The DJ",
+    "price": 2.75,
+    "tier": "Epic",
+    "imageUrl": "/assets/images/the-dj.png"
+  },
+  {
+    "id": 10,
+    "name": "Assassin",
+    "price": 2.75,
+    "tier": "Common",
+    "imageUrl": "/assets/images/assassin.png"
+  },
+  {
+    "id": 11,
+    "name": "Neon Guy",
+    "price": 2.75,
+    "tier": "Rare",
+    "imageUrl": "/assets/images/neon-guy.png"
+  },
+  {
+    "id": 12,
+    "name": "Assassin",
+    "price": 2.75,
+    "tier": "Common",
+    "imageUrl": "/assets/images/assassin.png"
+  },
+  {
+    "id": 13,
+    "name": "Mafia England",
+    "price": 2.75,
+    "tier": "Legendary",
+    "imageUrl": "/assets/images/mafia-england.png"
+  },
+  {
+    "id": 14,
+    "name": "Basketball Girl",
+    "price": 2.75,
+    "tier": "Mythic",
+    "imageUrl": "/assets/images/basketball-girl.png"
+  },
+  {
+    "id": 15,
+    "name": "The DJ",
+    "price": 2.75,
+    "tier": "Epic",
+    "imageUrl": "/assets/images/the-dj.png"
+  },
+  {
+    "id": 16,
+    "name": "Basketball Girl",
+    "price": 2.75,
+    "tier": "Mythic",
+    "imageUrl": "/assets/images/basketball-girl.png"
+  },
+  {
+    "id": 17,
+    "name": "The DJ",
+    "price": 2.75,
+    "tier": "Epic",
+    "imageUrl": "/assets/images/the-dj.png"
+  },
+  {
+    "id": 18,
+    "name": "Assassin",
+    "price": 2.75,
+    "tier": "Common",
+    "imageUrl": "/assets/images/assassin.png"
+  },
+  {
+    "id": 19,
+    "name": "Neon Guy",
+    "price": 2.75,
+    "tier": "Rare",
+    "imageUrl": "/assets/images/neon-guy.png"
+  },
+  {
+    "id": 20,
+    "name": "Assassin",
+    "price": 2.75,
+    "tier": "Common",
+    "imageUrl": "/assets/images/assassin.png"
+  },
+  {
+    "id": 21,
+    "name": "Mafia England",
+    "price": 2.75,
+    "tier": "Legendary",
+    "imageUrl": "/assets/images/mafia-england.png"
+  },
+  {
+    "id": 22,
+    "name": "Basketball Girl",
+    "price": 2.75,
+    "tier": "Mythic",
+    "imageUrl": "/assets/images/basketball-girl.png"
+  },
+  {
+    "id": 23,
+    "name": "The DJ",
+    "price": 2.75,
+    "tier": "Epic",
+    "imageUrl": "/assets/images/the-dj.png"
+  },
+  {
+    "id": 24,
+    "name": "Basketball Girl",
+    "price": 2.75,
+    "tier": "Mythic",
+    "imageUrl": "/assets/images/basketball-girl.png"
+  }
+]
