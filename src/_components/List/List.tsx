@@ -3,7 +3,7 @@ import { HTMLAttributes, LiHTMLAttributes } from 'react'
 const Item = (props: LiHTMLAttributes<HTMLLIElement>) => {
   const { className = '', ...rest } = props
 
-  return <li className={`pl-4 ${className}`} {...rest} />
+  return <li className={`ml-4 ${className}`} {...rest} />
 }
 
 const List = (props: HTMLAttributes<HTMLUListElement>) => {

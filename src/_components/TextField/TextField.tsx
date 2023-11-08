@@ -11,7 +11,7 @@ const TextField = (props: TextFieldProps) => {
     <div className='w-full'>
       {startIcon && <span className='absolute p-3'>{startIcon}</span>}
       <input
-        className={`p-2 ${
+        className={`w-full p-2 ${
           !!startIcon && 'pl-9'
         } rounded bg-transparent border border-gray-700 ${className}`}
         {...rest}
