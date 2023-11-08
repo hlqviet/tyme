@@ -1,3 +1,4 @@
+import Box from '@/src/_components/Box'
 import Button from '@/src/_components/Button'
 import SearchIcon from '@/src/_components/Icons/SearchIcon'
 import List from '@/src/_components/List'
@@ -9,7 +10,7 @@ import Title from '@/src/_components/Typography/Title'
 
 export default function Home() {
   return (
-    <main>
+    <Box>
       <Button type='primary'>Search</Button>
       <TextField startIcon={<SearchIcon />} placeholder='Quick search' />
       <Select>
@@ -22,6 +23,6 @@ export default function Home() {
       <List>
         <List.Item>Item</List.Item>
       </List>
-    </main>
+    </Box>
   )
 }
