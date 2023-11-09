@@ -149,7 +149,7 @@
   {
     "id": 22,
     "name": "Basketball Girl",
-    "price": 2.75,
+    "price": 3,
     "tier": "Mythic",
     "imageUrl": "/assets/images/basketball-girl.png"
   },
@@ -163,7 +163,7 @@
   {
     "id": 24,
     "name": "Basketball Girl",
-    "price": 2.75,
+    "price": 5,
     "tier": "Mythic",
     "imageUrl": "/assets/images/basketball-girl.png"
   }

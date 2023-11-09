@@ -1,5 +1,7 @@
 import { ButtonHTMLAttributes, ReactNode } from 'react'
 
+import Spinner from '@/src/_components/Spinner'
+
 const getButtonCssClasses = (type: 'default' | 'primary') => {
   switch (type) {
     case 'default':
@@ -13,6 +15,7 @@ const getButtonCssClasses = (type: 'default' | 'primary') => {
 
 interface ButtonProps
   extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'type'> {
+  loading?: boolean
   type?: 'default' | 'primary'
   htmlType?: ButtonHTMLAttributes<HTMLButtonElement>['type']
   startIcon?: ReactNode
@@ -25,19 +28,20 @@ const Button = (props: ButtonProps) => {
     htmlType,
     startIcon,
     type = 'default',
+    loading,
     ...rest
   } = props
 
   return (
     <button
-      className={`px-5 py-2 rounded transition ${className} ${getButtonCssClasses(
+      className={`px-5 py-2 rounded disabled:cursor-not-allowed disabled:bg-gray-400 transition ${className} ${getButtonCssClasses(
         type
       )}`}
       type={htmlType}
       {...rest}
     >
       <div className='flex gap-2 items-center'>
-        {startIcon} {children}
+        {startIcon} {loading && <Spinner />} {children}
       </div>
     </button>
   )

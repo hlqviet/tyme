@@ -15,3 +15,11 @@ export enum SortType {
   Asc = 'asc',
   Desc = 'desc'
 }
+
+export enum Resource {
+  Hero = 'heroes'
+}
+
+export enum ResourceAction {
+  Get = 'GET'
+}
