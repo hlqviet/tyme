@@ -1,3 +1,23 @@
+## What has been done
+
+- Common components hand-crafted with Tailwind: 2 hours
+- Layout with responsive UI: 2 hours
+- Data fetching with pagination: 1 hour
+- Searching and filtering (currently only filter Tier): 3 hours
+- Sorting by price: 1 hour
+- Bug fixing and testing: 2 hours
+- Page reload after 60 seconds
+
+## What has not been done
+
+- Banner
+- Character background by Tier
+
+## What can be improved
+
+- Sorting implementation for more than one property
+- A few unit tests
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
