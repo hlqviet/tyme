@@ -74,7 +74,7 @@ const HomePage = () => {
       </Box>
       <Box className='basis-full md:basis-1/4'>
         <Filters
-          className={filtersVisible ? '' : 'invisible'}
+          className={filtersVisible ? '' : 'invisible h-0'}
           setTerms={setTerms}
           setFilters={setFilters}
           setSort={setSort}
