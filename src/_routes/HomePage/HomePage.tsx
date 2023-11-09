@@ -41,16 +41,19 @@ const HomePage = () => {
   const { data = { data: [] }, error, loading } = useGetHeroesQuery(queryParams)
   const { data: heroes, pagination } = data
 
-  // useEffect(() => {
-  //   fetchHeroes()
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, [])
-
   useEffect(() => {
     if (!heroes.length) return
 
     setPersistedHeroes((prevState) => [...prevState, ...heroes])
   }, [heroes])
+
+  useEffect(() => {
+    const timerId = setTimeout(() => {
+      window.location.reload()
+    }, 60 * 1000)
+
+    return () => clearTimeout(timerId)
+  }, [])
 
   const handleFiltersVisibility = () => {
     setFiltersVisible((prevState) => !prevState)
